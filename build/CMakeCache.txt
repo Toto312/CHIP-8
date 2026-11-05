@@ -23,6 +23,15 @@ ALSA_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libasound.so
 //Path to a library.
 ASOUND_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libasound.so
 
+//Value Computed by CMake
+CHIP-8_BINARY_DIR:STATIC=/home/toto/Escritorio/CHIP-8/build
+
+//Value Computed by CMake
+CHIP-8_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+CHIP-8_SOURCE_DIR:STATIC=/home/toto/Escritorio/CHIP-8
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -205,7 +214,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=hello
+CMAKE_PROJECT_NAME:STATIC=CHIP-8
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.5.0

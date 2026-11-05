@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/toto/Escritorio/CHIP-8/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hello.dir/all
+all: CMakeFiles/chip-8.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,7 +71,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hello.dir/clean
+clean: CMakeFiles/chip-8.dir/clean
 clean: vendored/SDL/clean
 .PHONY : clean
 
@@ -95,30 +95,30 @@ vendored/SDL/clean: vendored/SDL/CMakeFiles/SDL_uclibc.dir/clean
 .PHONY : vendored/SDL/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello.dir
+# Target rules for target CMakeFiles/chip-8.dir
 
 # All Build rule for target.
-CMakeFiles/hello.dir/all: vendored/SDL/CMakeFiles/SDL3-shared.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toto/Escritorio/CHIP-8/build/CMakeFiles --progress-num=100 "Built target hello"
-.PHONY : CMakeFiles/hello.dir/all
+CMakeFiles/chip-8.dir/all: vendored/SDL/CMakeFiles/SDL3-shared.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toto/Escritorio/CHIP-8/build/CMakeFiles --progress-num=100 "Built target chip-8"
+.PHONY : CMakeFiles/chip-8.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello.dir/rule: cmake_check_build_system
+CMakeFiles/chip-8.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/toto/Escritorio/CHIP-8/build/CMakeFiles 97
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chip-8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/toto/Escritorio/CHIP-8/build/CMakeFiles 0
-.PHONY : CMakeFiles/hello.dir/rule
+.PHONY : CMakeFiles/chip-8.dir/rule
 
 # Convenience name for target.
-hello: CMakeFiles/hello.dir/rule
-.PHONY : hello
+chip-8: CMakeFiles/chip-8.dir/rule
+.PHONY : chip-8
 
 # clean rule for target.
-CMakeFiles/hello.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
-.PHONY : CMakeFiles/hello.dir/clean
+CMakeFiles/chip-8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/clean
+.PHONY : CMakeFiles/chip-8.dir/clean
 
 #=============================================================================
 # Target rules for target vendored/SDL/CMakeFiles/SDL3-shared.dir

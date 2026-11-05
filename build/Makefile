@@ -118,17 +118,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named chip-8
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+chip-8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chip-8
+.PHONY : chip-8
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+chip-8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/build
+.PHONY : chip-8/fast
 
 #=============================================================================
 # Target rules for targets named SDL3-shared
@@ -169,29 +169,29 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
-hello.o: hello.c.o
-.PHONY : hello.o
+main.o: main.c.o
+.PHONY : main.o
 
 # target to build an object file
-hello.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.o
-.PHONY : hello.c.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/main.c.o
+.PHONY : main.c.o
 
-hello.i: hello.c.i
-.PHONY : hello.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-hello.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.i
-.PHONY : hello.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/main.c.i
+.PHONY : main.c.i
 
-hello.s: hello.c.s
-.PHONY : hello.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-hello.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.s
-.PHONY : hello.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chip-8.dir/build.make CMakeFiles/chip-8.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -204,10 +204,10 @@ help:
 	@echo "... SDL3-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
-	@echo "... hello"
-	@echo "... hello.o"
-	@echo "... hello.i"
-	@echo "... hello.s"
+	@echo "... chip-8"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

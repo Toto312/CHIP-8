@@ -114,7 +114,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello.dir/DependInfo.cmake"
+  "CMakeFiles/chip-8.dir/DependInfo.cmake"
   "vendored/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "vendored/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "vendored/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake"
