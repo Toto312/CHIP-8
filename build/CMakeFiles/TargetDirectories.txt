@@ -1,8 +1,0 @@
-/home/toto/Escritorio/CHIP-8/build/CMakeFiles/chip-8.dir
-/home/toto/Escritorio/CHIP-8/build/CMakeFiles/edit_cache.dir
-/home/toto/Escritorio/CHIP-8/build/CMakeFiles/rebuild_cache.dir
-/home/toto/Escritorio/CHIP-8/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/toto/Escritorio/CHIP-8/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/toto/Escritorio/CHIP-8/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/toto/Escritorio/CHIP-8/build/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/toto/Escritorio/CHIP-8/build/vendored/SDL/CMakeFiles/rebuild_cache.dir

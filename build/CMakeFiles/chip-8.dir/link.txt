@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/chip-8.dir/main.c.o" -o chip-8  -Wl,-rpath,/home/toto/Escritorio/CHIP-8/build libSDL3.so.0.5.0 
