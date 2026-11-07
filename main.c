@@ -516,7 +516,6 @@ void c8_cpu_update_timers(Registers *reg, Sound beep) {
             PlaySound(beep);
         }
         reg->st--;
-        // emit sound
     }
 
     if (reg->st == 0 && IsSoundPlaying(beep)) {
@@ -593,7 +592,7 @@ int main(int argc, char *argv[]) {
     SetTextureFilter(texture, TEXTURE_FILTER_POINT);
     Sound beep = c8_create_beep(500,1);
 
-    #define INSTRUCTIONS_PER_FRAME 10 // 10 * 60 FPS = 600 Hz
+    #define INSTRUCTIONS_PER_FRAME 15 // 10 * 60 FPS = 600 Hz
 
     while (!WindowShouldClose()) {
         if (IsKeyPressed(KEY_F1)) {

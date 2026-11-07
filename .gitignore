@@ -1,0 +1,5 @@
+chip8
+*.o
+build/
+CHIP-8
+roms/
